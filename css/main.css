@@ -85,3 +85,31 @@ body{
   animation:animatevan .2s linear infinite;
 
 }
+
+@keyframes animatevan{
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(1px);
+  }
+}
+.fa-cloud{
+  position: absolute;
+  top: calc(5px * var(--i));
+  top: calc(15px * var(--i));
+  font-size: 2.5em;
+  color: #fff;
+  -webkit-text-stroke: 2px #000;
+  z-index: 1;
+  animation: animateclouds 3.5s linear infinite;
+  animation-delay: calc( -1s * var(--i));
+}
+@keyframes animateclouds{
+  0%{
+    transform: translateX(350px);
+  }
+100%{
+    transform: translateX(-350px);
+  }
+}
