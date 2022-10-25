@@ -113,3 +113,58 @@ body{
     transform: translateX(-350px);
   }
 }
+.fa-tree{
+  position: absolute;
+  bottom: 153px;
+ font-size: 2em;
+ color: #0d9e0d;
+  z-index: 2;
+  top: 113px;
+  
+  animation: animateclouds 7s linear infinite;
+  animation-delay: calc( -1s * var(--i));
+
+
+}
+.fa-mountain{
+  position: absolute;
+  bottom: 100px;
+ font-size: 10em;
+ color: rgb(55, 152, 216);
+top:54px;
+  
+  animation: animateclouds 15s linear infinite;
+  animation-delay: calc( -3s * var(--i));
+
+
+}
+.title{
+  margin-top: 130px;
+  cursor: pointer;
+}
+.title-link{
+  text-decoration: none;
+  color: #61610d;
+
+   }
+   .title-link:hover{
+    text-decoration: none;
+    color: #2e4697;
+  
+     }
+
+   button{
+    font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+   }
+.link-box{
+  background-color: #333;
+  margin-top: 138px;
+  text-align: center;
+  margin-left: 10px;
+  padding: 5px 30px;
+  border-radius: 8px;
+}
